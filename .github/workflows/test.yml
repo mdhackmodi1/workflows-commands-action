@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set environment variable
-        run: echo "COMPANY_VAR=KodeKloud" >> $GITHUB_ENV
+        run: echo "COMPANY_VAR=MayankModi" >> $GITHUB_ENV
 
       - name: Show environment variable
         run: echo "Hello, $COMPANY_VAR!"
@@ -63,4 +63,4 @@ jobs:
           echo "- Variable from previous step: $COMPANY_VAR" >> $GITHUB_STEP_SUMMARY
           echo "- Secret Key from previous step: $key" >> $GITHUB_STEP_SUMMARY
           echo "- Output from previous step: ${{ steps.my_output.outputs.myOutput }}" >> $GITHUB_STEP_SUMMARY
-          echo "![KodeKloud](https://raw.githubusercontent.com/sidd-harth/ga-workflow-step-cmd-demo/main/kk-logo.png)" >> $GITHUB_STEP_SUMMARY
+          echo "![MayankModi](https://raw.githubusercontent.com/sidd-harth/ga-workflow-step-cmd-demo/main/kk-logo.png)" >> $GITHUB_STEP_SUMMARY
