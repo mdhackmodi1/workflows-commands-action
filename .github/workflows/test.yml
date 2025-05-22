@@ -63,4 +63,4 @@ jobs:
           echo "- Variable from previous step: $COMPANY_VAR" >> $GITHUB_STEP_SUMMARY
           echo "- Secret Key from previous step: $key" >> $GITHUB_STEP_SUMMARY
           echo "- Output from previous step: ${{ steps.my_output.outputs.myOutput }}" >> $GITHUB_STEP_SUMMARY
-          echo "![MayankModi](https://raw.githubusercontent.com/sidd-harth/ga-workflow-step-cmd-demo/main/kk-logo.png)" >> $GITHUB_STEP_SUMMARY
+          echo "![MayankModi](https://raw.githubusercontent.com/mdhackmodi1/workflows-commands-action/blob/main/mayank.jpg)" >> $GITHUB_STEP_SUMMARY
